@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameGeek.Api", "BoardGameGeek.Api\BoardGameGeek.Api.csproj", "{EA67CD28-DB5B-4656-A68E-F53E5C52EA59}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{30A8076B-87A3-4427-8D11-1D647E74001D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameGeek.Api.Unit.Tests", "BoardGameGeek.Api.Unit.Tests\BoardGameGeek.Api.Unit.Tests.csproj", "{015A8ADF-587B-4761-BC6E-4403719FE964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +17,15 @@ Global
 		{EA67CD28-DB5B-4656-A68E-F53E5C52EA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA67CD28-DB5B-4656-A68E-F53E5C52EA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA67CD28-DB5B-4656-A68E-F53E5C52EA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015A8ADF-587B-4761-BC6E-4403719FE964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015A8ADF-587B-4761-BC6E-4403719FE964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015A8ADF-587B-4761-BC6E-4403719FE964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015A8ADF-587B-4761-BC6E-4403719FE964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{015A8ADF-587B-4761-BC6E-4403719FE964} = {30A8076B-87A3-4427-8D11-1D647E74001D}
 	EndGlobalSection
 EndGlobal
