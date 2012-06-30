@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BoardGameGeek.Api.Models
+namespace BoardGameGeek.Api.ClientModels
 {
     /// <summary>
     /// Represents public information about a user profile.

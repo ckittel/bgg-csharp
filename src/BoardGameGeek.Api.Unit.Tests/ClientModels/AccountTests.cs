@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
 
-namespace BoardGameGeek.Api.Models
+namespace BoardGameGeek.Api.ClientModels
 {
     [TestFixture]
     public class AccountTests

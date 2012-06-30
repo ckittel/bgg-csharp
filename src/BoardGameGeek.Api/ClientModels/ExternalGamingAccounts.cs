@@ -1,4 +1,4 @@
-﻿namespace BoardGameGeek.Api.Models
+﻿namespace BoardGameGeek.Api.ClientModels
 {
 
     /// <summary>
